@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 function Header(){
-  const [date, setDate] = useState(new Date());
+  const [date] = useState(new Date());
   return <div className="container">
   <header className = "top">
       <text>
