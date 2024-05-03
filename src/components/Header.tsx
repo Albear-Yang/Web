@@ -1,19 +1,24 @@
 import "./blog.css";
-import "./Header.css"
+import "./Header.css";
+import { useState } from 'react';
+
+
 function Header(){
-    return <div className="container">
-    <header className = "top">
-        <div >
-          <a className = "top-child">Subscribe</a>
-        </div>
-        <div>
-          <a className = "top-child" id = "top-title">Albear Network</a>
-        </div>
-        <div>
-            Search
-        </div>
-        
-    </header> </div>
+  const [date, setDate] = useState(new Date());
+  return <div className="container">
+  <header className = "top">
+      <text>
+        {date.toDateString()}
+      </text>
+
+      <div>
+        <a className = "top-child" id = "top-title" href = "https://albear-yang.github.io/Web/">[  Albear Network  ]</a>
+      </div>
+      <div>
+          Search
+      </div>
+      
+  </header> </div>
     
 }
 

@@ -8,7 +8,15 @@ nav.nav-title{
     padding-right: 3%;
     padding-bottom: 1%;
     padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.vl {
+  border-left: 0.15vw solid rgb(89, 89, 89);
+  height: 3vh;
+}
+
 a.link{
     color: inherit;
     text-decoration: none;

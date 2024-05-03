@@ -52,15 +52,18 @@ function ProScrolldiv(){
         <div className="scrollmenu">
             <div  id = "divFirst"><ProshowCase title = "Drawable Fourier Transform"  summary = "interactive fourier Transform, that turns your drawings or SVG images into a series of rotating circles!" img = {Fourier}></ProshowCase>  </div>
             <div ref = {back}><ProshowCase title = "Photo to Desmos Graph"  summary = "Python script that can take photos, and graph it using mathematical euqations on desmos" img = {Desmos}></ProshowCase></div>
-            <div>     <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase> </div>   
+            <div>     <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase> </div>
+            <div>      <ProshowCase title = "Chess AI" summary = "Chess AI bot that utelizes min-max algorithm optimized by alpha-beta pruning. Chess rating somewhere between 1300-1700." img = {Automata}></ProshowCase></div>     
 
             <div ref = {start}><ProshowCase title = "Drawable Fourier Transform"  summary = "interactive fourier Transform, that turns your drawings or SVG images into a series of rotating circles!" img = {Fourier}></ProshowCase>  </div>
             <div ><ProshowCase title = "Photo to Desmos Graph"  summary = "Python script that can take photos, and graph it using mathematical euqations on desmos" img = {Desmos}></ProshowCase></div>
-            <div ref ={ref} id = "startel"> <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase></div>
+            <div > <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase></div>
+            <div ref ={ref} id = "startel">      <ProshowCase title = "Chess AI" summary = "Chess AI bot that utelizes min-max algorithm optimized by alpha-beta pruning. Chess rating somewhere between 1300-1700." img = {Automata}></ProshowCase></div>     
 
             <div  id = "divFirst"><ProshowCase title = "Drawable Fourier Transform"  summary = "interactive fourier Transform, that turns your drawings or SVG images into a series of rotating circles!" img = {Fourier}></ProshowCase>  </div>
             <div><ProshowCase title = "Photo to Desmos Graph"  summary = "Python script that can take photos, and graph it using mathematical euqations on desmos" img = {Desmos}></ProshowCase></div>
-            <div>      <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase></div>           
+            <div>      <ProshowCase title = "Cellular Automata" summary = "JavaScript object oriented programming which accurately/efficiently simulates a Belousov Zhabotinsky reaction" img = {Automata}></ProshowCase></div>
+            <div>      <ProshowCase title = "Chess AI" summary = "Chess AI bot that utelizes min-max algorithm optimized by alpha-beta pruning. Chess rating somewhere between 1300-1700." img = {Automata}></ProshowCase></div>               
         </div>
     </div>)
 } 

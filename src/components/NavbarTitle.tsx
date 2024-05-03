@@ -6,8 +6,11 @@ function TitleNav(){
     <div className="nav-title">
         <nav className="nav-title">
             <Link to ="/" className="link">Home</Link>
+            <div className="vl"></div>
             <Link to ="/About" className="link">About</Link>
+            <div className="vl"></div>
             <Link to ="/Projects" className="link">Projects</Link>
+            <div className="vl"></div>
             <Link to ="/Resume" className="link">Resume</Link>
 
 
