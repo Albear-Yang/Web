@@ -1,10 +1,3 @@
-import Header from './components/Header'
-import Line1 from './components/Line1'
-import TitleNav from './components/NavbarTitle'
-import FeaturedPost from './components/FeaturedPost'
-import ProScroldiv from './components/ProjectScrollWheel'
-import Mainpage from './components/Mainpage'
-
 import './App.css'
 import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 

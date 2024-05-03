@@ -4,7 +4,6 @@ import TitleNav from '../components/NavbarTitle'
 import FeaturedPost from '../components/FeaturedPost'
 import ProScroldiv from '../components/ProjectScrollWheel'
 import Mainpage from '../components/Mainpage'
-import { Link } from "react-router-dom"
 
 function Home(){
   return (
