@@ -5,9 +5,9 @@ function Mainpage(){
     return(
     <div className = "container" id = "main">
         <div className = "mainPage">
-            <div id = "mostrecent"><Article title = "First Blog" date = "8:53, Jan 19 2023" article = "this is my first article"></Article></div>
+            <div id = "mostrecent"><Article title = "My Next Project" date = "8:53, May 3 2024" article = "Is ultimate tic tac toe solved?"></Article></div>
+
             <div className = "sideNav">
-                <div className = "stockForcast"> Stock forcast coming soon!</div>
 
                 <div className = "recent"> 
                 <h3 id = "recentArticleTitle">MOST RECENT ARTICLES</h3>
@@ -34,7 +34,7 @@ function Mainpage(){
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>React Native</li>
-                        <li>C++</li>
+                        <li>C#</li>
                         <li>C</li>
                         <li>Python</li>
                         <li>HTML</li>
