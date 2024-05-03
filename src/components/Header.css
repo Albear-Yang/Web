@@ -13,7 +13,8 @@ header.top{
 a.top-child{
     text-decoration:none;
     color: black;
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #top-title{
     font-size: 2rem;
