@@ -8,7 +8,7 @@ function ProshowCase(props: {title: string,  summary: string, img: string } ){
                     <h1 className = "ProshowTitle" style={{whiteSpace: 'pre-wrap', overflowWrap: 'break-word'}}>{props.title}</h1>
                 
                     <p className = "ProshowSum" style={{whiteSpace: 'pre-wrap', overflowWrap: 'break-word'}}>{props.summary}</p>
-                    <a className = "contLink kub">Continue <i className="arrow right"></i></a>
+                    <a className = "contLink kub" href = "https://albear-yang.github.io/">Continue <i className="arrow right"></i></a>
                 </div>
                 <img className = "Thumbnail" src={props.img}></img>
             </div>
