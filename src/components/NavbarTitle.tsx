@@ -1,6 +1,6 @@
 import './NavbarTitle.css'
 import {Link} from "react-router-dom"
-import Pdf from '/Users/albertyang/Documents/GitHub/Web/src/Pages/resume.pdf'
+import Pdf from './Pages/resume.pdf'
 function TitleNav(){
     return (
         <div className = "container">
