@@ -1,6 +1,6 @@
 import './NavbarTitle.css'
 import {Link} from "react-router-dom"
-{/*import Pdf from './Pages/resume.pdf'*/}
+import Pdf from './Pages/resume.pdf'
 function TitleNav(){
     return (
         <div className = "container">
@@ -12,7 +12,7 @@ function TitleNav(){
             <div className="vl"></div>
             <a href = "https://albear-yang.github.io/" className="link">Projects</a>
             <div className="vl"></div>
-            <a className = "link">Resume</a>
+            <a className = "link" href = {Pdf} target = "_blank">Resume</a>
 
 
         </nav>
