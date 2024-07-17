@@ -16,7 +16,7 @@ function Home(){
     <div> <Line1></Line1> </div>
     <div> <ProScroldiv></ProScroldiv></div>
     <div> <Line1></Line1> </div>
-    <div> <Mainpage></Mainpage></div>
+    {/*<div> <Mainpage></Mainpage></div>*/}
 
     </>)
     

@@ -1,3 +1,65 @@
-#mainPhoto{
-    width:100%;
+/* General Styles for About Page */
+.about-page {
+    font-family: 'Times New Roman', serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.about-page .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-page h1, .about-page h2, .about-page h3, .about-page h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #111;
+}
+
+.about-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-page h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.about-page h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-page p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.about-page ul, .about-page ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-page li {
+    margin-bottom: 10px;
+}
+
+.about-page #mainPhoto {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* Header and Line styles */
+.about-page div > Header, .about-page div > Line1, .about-page div > TitleNav {
+    margin-bottom: 20px;
 }

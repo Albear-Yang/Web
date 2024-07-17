@@ -13,7 +13,6 @@ function ProshowCase(props: {title: string,  summary: string, img: string } ){
                 <img className = "Thumbnail" src={props.img}></img>
             </div>
         </div>
-        
     )
 }
 export default ProshowCase;

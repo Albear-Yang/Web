@@ -11,7 +11,7 @@ function TitleNav(){
             <div className="vl"></div>
             <a href = "https://albear-yang.github.io/" className="link">Projects</a>
             <div className="vl"></div>
-            <Link to ="/Resume" className="link">Resume</Link>
+            <Link to ="/Resume" className="link">< a>Resume</a></Link>
 
 
         </nav>
