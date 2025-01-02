@@ -17,9 +17,10 @@ function About() {
                 <img src={thumbNail} id="mainPhoto" alt="Albert Yang" />
 
                 <h2>Who am I?</h2>
-                <p>Hi, I am a student at the University of Waterloo studying Computer Science and looking for Fall 2024 Co-ops.</p>
-                <p>I have extensive experience with frontend languages such as React, JavaScript, HTML, CSS, but am also equally versed in C++, Python, SQL, PHP, and unfortunately, Racket...</p>
-                <p>Within my degree, I have a passion for pure math, which a lot of projects actually draw inspiration from. Feel free to check out my past projects by navigating to the projects page!</p>
+                <p>Hi, I am a student at the University of Waterloo studying Computer Science and looking for Summer 2025 Co-ops.</p>
+                <p>My last co-op was an AI/ML Engineering internship with the Sick Kids Hospital orthopaedic surgery division. There I independently researched and implemented various medical and ML techniques!</p>
+                <p>I have extensive ML experience with Pytorch, Pyro and python as well as  JavaScript, HTML, CSS, C, C++, Python, SQL, and unfortunately, Racket...</p>
+                <p>Within my degree, I have a passion for pure math and reinforced learning, which a lot of projects actually draw inspiration from. Feel free to check out my past projects by navigating to the projects page!</p>
                 <p>Outside of my degree, my hobbies include longboard dancing (although I'm not very good), skateboarding, chess (feel free to play a blitz with me), and cooking!</p>
 
                 <h2>Purpose of this website?</h2>
@@ -37,17 +38,7 @@ function About() {
                     </li>
                     <li>
                         <h4>Resume</h4>
-                        <p>This is mostly for if you want to hire me...</p>
-                    </li>
-                    <li>
-                        <h4>Food Reviews (In progress)</h4>
-                        <p>I will be trying a variety of food from pilk (Pepsi and milk) to normal food like pizza or jjajangmyeon and rating them on a scale of 1-10.</p>
-                        <p>My rating scale is a UNIVERSAL scale with the average (5) being the price and taste of a Big Mac. Anything that is over 5 tastes better or is cheaper than a Big Mac, and anything under tastes worse or is more expensive than a Big Mac.</p>
-                    </li>
-                    <li>
-                        <h4>Recipes (In progress)</h4>
-                        <p>Being the only objectively correct food reviewer in the world, it also means that I am exceptionally talented when it comes to cooking. So, when it comes to creating new dishes/recipes, I can guarantee that you will find these original meals at least a solid 5.</p>
-                        <p>From peanut butter mac and cheese to peanut butter broccoli cheddar soup to peanut butter jelly sandwiches. I can truly use almost any ingredient in the kitchen while also mastering any flavor profile known to man.</p>
+                        <p>This is mostly for if you want to hire me</p>
                     </li>
                     <li>
                         <h4>Misc (In progress)</h4>
@@ -59,18 +50,32 @@ function About() {
                     </li>
                 </ul>
 
+                <h2>My Top 10 Goals for 2025</h2>
+                <ol>
+                    <li>Exersize more</li>
+                    <li>Get even better at cooking</li>
+                    <li>Learn how to cross step on my longboard</li>
+                    <li>Do leetcode everyday</li>
+                    <li>Get a 4.0 GPA</li>
+                    <li>Read more books</li>
+                    <li>Keep my plants alive</li>
+                    <li>Make something artsy</li>
+                    <li>Eat even more fiber</li>
+                    <li>Join the NBA</li>
+                </ol>
+
                 <h2>My Top 10 Goals for 2024</h2>
                 <ol>
-                    <li>Get better at cooking</li>
+                    <li>Get better at cooking &check;</li>
                     <li>Learn how to cross step on my longboard</li>
                     <li>Create an ML sentiment analysis for stocks</li>
                     <li>Exercise more</li>
                     <li>Create a navigation map app for the UW campus</li>
-                    <li>Keep my plants alive</li>
+                    <li>Keep my plants alive &check;</li>
                     <li>Make something artsy</li>
                     <li>Join the NBA</li>
-                    <li>Run a 3-minute kilometer</li>
-                    <li>Eat more fiber</li>
+                    <li>Run a 3-minute kilometer &check;</li>
+                    <li>Eat more fiber &check;</li>
                 </ol>
 
             </div>
